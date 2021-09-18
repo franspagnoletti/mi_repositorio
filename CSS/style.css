@@ -41,7 +41,7 @@ z-index: 4;
 .header ul.menu li a{
     text-decoration: none;
     color: white;
-    font-size: 25px;
+    font-size: 11px;
     display:block; 
 }
 
@@ -66,7 +66,7 @@ z-index: 4;
     display:block;
 }
 
-/* BODY */
+/* MAIN */
 
 /************************************************************************************************************/
 /************************************************************************************************************/
@@ -104,7 +104,7 @@ div.imgfondoinicio {
     color:#c88f93;
     text-align: center;
     text-transform: uppercase;
-    font-size: 100px;
+    font-size: 50px;
     margin-top: 30px;
     margin-bottom: 30px;
      transform: skewY(2deg); 
@@ -140,7 +140,7 @@ div.holadiv{
 div p.parrafo1 {
     color:#c88f93;
     text-align: center;
-    font-size: 20px;
+    font-size: 10px;
     margin-left: 200px;
     margin-right: 200px;
 }
@@ -213,7 +213,6 @@ div.flexserv {
   margin: 2rem;
   padding: 2rem;
   height: 180px;
-  width: 180px; 
 } 
 
 
@@ -310,7 +309,7 @@ footer p{
  padding-top: 50px;
 }
 
-/* BODY */
+/* MAIN */
 
 /************************************************************************************************************/
 /************************************************************************************************************/
@@ -449,25 +448,25 @@ div.imgfondoinicio {
  
  @media (min-width: 992px)  {      
 .header ul.menu li a{
-    font-size: 40px;
+    font-size: 20px;
 }
     .titulo{
         color:#c88f93;
         text-align: center;
         text-transform: uppercase;
-        font-size: 150px;
+        font-size: 75px;
         margin-top: 30px;
         margin-bottom: 30px;
     }
 
     div p.parrafo1 {
-        font-size: 50px;
+        font-size: 25px;
         margin-left: 20px;
         margin-right: 20px;
     }
     
     div p.parrafo2 {
-        font-size: 50px;
+        font-size: 25px;
     }
 
     div.serviciosdiv div.imgtable{
@@ -476,7 +475,7 @@ div.imgfondoinicio {
     }
 
    form label {
-  font-size: 40px;
+  font-size: 20px;
 }
   }
  
