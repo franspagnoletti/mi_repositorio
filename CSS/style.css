@@ -1,28 +1,35 @@
-
 /* HEADER */
-
 
 html {
     scroll-behavior: smooth;
 }
 
-.header{
-    background: linear-gradient(#c88f93,pink);
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-link{
+    font-size: 20px;
+}
+
+/* 
+.header {
+    background: linear-gradient(#c88f93, pink);
     height: 330px;
 }
 
 .header img.logoimg {
-display: block;
-margin-top: -40px;
-margin-bottom: -40px;
-margin-left: auto;
-margin-right: auto;
-height: 300px;
-width: 300px;
-z-index: 4;
+    display: block;
+    margin-top: -40px;
+    margin-bottom: -40px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 300px;
+    z-index: 4;
 }
 
-.header ul.menu{
+.header ul.menu {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,34 +44,34 @@ z-index: 4;
     margin-right: 30px;
     z-index: 0;
 }
-    
-.header ul.menu li a{
+
+.header ul.menu li a {
     text-decoration: none;
     color: white;
     font-size: 11px;
-    display:block; 
+    display: block;
 }
 
-/* Efecto al pasar mouse sobre items del navegador*/
+ Efecto al pasar mouse sobre items del navegador
 
 .header ul.menu li a:hover {
-    background:pink;
+    background: pink;
 }
 
-.header ul.menu > li {
-    float:left;
+.header ul.menu>li {
+    float: left;
 }
 
 .header ul.menu li.sobcursos ul {
-    display:none;
-    position:absolute;
-    background-color:#c88f93 ;
+    display: none;
+    position: absolute;
+    background-color: #c88f93;
     padding-left: 15px;
 }
 
-.header ul.menu li:hover > ul {
-    display:block;
-}
+.header ul.menu li:hover>ul {
+    display: block;
+} */
 
 /* MAIN */
 
@@ -79,35 +86,35 @@ z-index: 4;
 div.imgfondoinicio {
     /* The background image */
     background-image: url("/mi_repositorio/MULTIMEDIA/imginicio.jpg");
-  
+
     /* Set a specified height, or the minimum height for the background image */
     min-height: 500px;
-  
+
     /* Set background image to fixed (don't scroll along with the page) */
     background-attachment: fixed;
-  
+
     /* Center the background image */
     background-position: center;
-  
+
     /* Set the background image to no repeat */
     background-repeat: no-repeat;
-  
+
     /* Scale the background image to be as large as possible */
     background-size: cover;
-  }
+}
 
 
 
 /* CLASS DE TODOS LOS TITULOS DEL SITIO */
 
-.titulo{
-    color:#c88f93;
+.titulo {
+    color: #c88f93;
     text-align: center;
     text-transform: uppercase;
     font-size: 50px;
     margin-top: 30px;
     margin-bottom: 30px;
-     transform: skewY(2deg); 
+    transform: skewY(2deg);
     animation-duration: 3s;
     animation-name: animacion;
 
@@ -117,20 +124,20 @@ div.imgfondoinicio {
     from {
 
         transform: skewY(0deg)
-
-     }
-    to {
-      /* probar propiedades */
-      transform: skewY(2deg)
     }
-  } 
-  
+
+    to {
+        /* probar propiedades */
+        transform: skewY(2deg)
+    }
+}
+
 
 /***************************************************************************/
 /* SECCIÓN HOLA - SOBRE MINERVA */
 /***************************************************************************/
 
-div.holadiv{
+div.holadiv {
     background-color: white;
     padding-bottom: 40px;
     padding-top: 40px;
@@ -138,7 +145,7 @@ div.holadiv{
 
 
 div p.parrafo1 {
-    color:#c88f93;
+    color: #c88f93;
     text-align: center;
     font-size: 10px;
     margin-left: 200px;
@@ -152,18 +159,18 @@ div p.parrafo1 {
 /* SECCIÓN SERVICIOS */
 /***************************************************************************/
 
-div.serviciosdiv{
-    background: linear-gradient(#c88f93,pink);
+div.serviciosdiv {
+    background: linear-gradient(#c88f93, pink);
     padding-bottom: 200px;
     padding-top: 40px;
 }
 
-div.serviciosdiv .titulo { 
+div.serviciosdiv .titulo {
     color: white;
-}  
+}
 
 
-div.serviciosdiv div.imgtable{
+div.serviciosdiv div.imgtable {
     height: 180px;
     width: 180px;
 
@@ -177,43 +184,43 @@ div.serviciosdiv div.imgtable{
     margin-right: auto;
 }
 
-div.serviciosdiv table{
+div.serviciosdiv table {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 
-div.serviciosdiv table tr td h2{
-color: white;
-font-style: oblique;
-font-size: 30px;
+div.serviciosdiv table tr td h2 {
+    color: white;
+    font-style: oblique;
+    font-size: 30px;
 }
 
 
-div.serviciosdiv table tr td img{
+div.serviciosdiv table tr td img {
     width: 280px;
     height: 280px;
-} 
+}
 
 section.flexserv {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 100px;
-  justify-content: space-around;
-  align-items: stretch;
-  width: auto;
-  height: auto;
-  padding: 5rem;
-  background: linear-gradient(#c88f93,pink);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: space-around;
+    align-items: stretch;
+    width: auto;
+    height: auto;
+    padding: 5rem;
+    background: linear-gradient(#c88f93, pink);
 }
- 
+
 div.flexserv {
-  order: 1;
-  margin: 2rem;
-  padding: 2rem;
-  height: 180px;
-} 
+    order: 1;
+    margin: 2rem;
+    padding: 2rem;
+    height: 180px;
+}
 
 
 
@@ -221,40 +228,42 @@ div.flexserv {
 /* SECCIÓN EL SALON */
 /***************************************************************************/
 
-div.salondiv{
+div.salondiv {
     background-color: white;
     padding-bottom: 40px;
     padding-top: 40px;
 }
 
-div.salondiv .salonimg{
+div.salondiv .salonimg {
     padding-bottom: 40px;
-    
+
 }
 
 div.salondiv {
     display: grid;
-    justify-content: center;  
+    justify-content: center;
     grid-template-areas: "imagen1 imagen2 imagen3";
-   grid-template-columns: 40% 30% 30%;  
-   grid-column-gap: 50px;       
-  }
-  
-  .salonimg1 { 
-      grid-area: imagen1;
-      width: 100%;
-      height: 100%;
+    grid-template-columns: 40% 30% 30%;
+    grid-column-gap: 50px;
 }
-  .salonimg2 { 
-      grid-area: imagen2;
-      width: 100%;
-      height: 100%;
+
+.salonimg1 {
+    grid-area: imagen1;
+    width: 100%;
+    height: 100%;
 }
-  .salonimg3 { 
-      grid-area: imagen3;
-      width: 100%;
-      height: 100%;
-    }
+
+.salonimg2 {
+    grid-area: imagen2;
+    width: 100%;
+    height: 100%;
+}
+
+.salonimg3 {
+    grid-area: imagen3;
+    width: 100%;
+    height: 100%;
+}
 
 
 
@@ -262,51 +271,54 @@ div.salondiv {
 /* SECCIÓN CONTACTO */
 /***************************************************************************/
 
-div.contactodiv{
-    background: linear-gradient(#c88f93,pink);
+div.contactodiv {
+    background: linear-gradient(#c88f93, pink);
     padding-bottom: 0px;
     padding-top: 40px;
 }
-div.contactodiv .titulo { 
+
+div.contactodiv .titulo {
     color: white;
-}  
+}
+
 div p.parrafo2 {
-    color:white;
+    color: white;
     text-align: center;
     font-size: 20px;
     margin-left: 200px;
     margin-right: 200px;
 }
 
-div .contactodiv iframe{
+div .contactodiv iframe {
     padding-top: 30px;
 }
 
-form legend{    
-    font-size: 60px; 
+form legend {
+    font-size: 60px;
     text-transform: uppercase;
-  }
+}
 
-form{
-padding-top: 50px;
-text-align:center;
-color: #c88f93;
-background-color:white;
-} 
+form {
+    padding-top: 50px;
+    text-align: center;
+    color: #c88f93;
+    background-color: white;
+}
 
 /***************************************************************************/
 /* FOOER */
 /***************************************************************************/
 
-footer{
-    background-color:#c88f93;
+footer {
+    background-color: #c88f93;
     height: 130px;
 }
-footer p{
- text-align:center;
- font-size: 20px;
- color: white;
- padding-top: 50px;
+
+footer p {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding-top: 50px;
 }
 
 /* MAIN */
@@ -317,65 +329,71 @@ footer p{
 /************************************************************************************************************/
 /************************************************************************************************************/
 
-.titulocursos { 
-    color:#c88f93;
+.titulocursos {
+    color: #c88f93;
     text-align: center;
     text-transform: uppercase;
     font-size: 30px;
     margin-top: 30px;
     margin-bottom: 30px;
-} 
+}
 
-.precio1 { 
-    color:#c88f93;
+.precio1 {
+    color: #c88f93;
     text-align: left;
     font-size: 30px;
-    text-decoration:line-through;
+    text-decoration: line-through;
     margin-top: -30px;
     margin-bottom: 4px;
-} 
-.precio2 { 
-    color:green;
+}
+
+.precio2 {
+    color: green;
     margin-top: 5px;
     text-align: left;
     font-size: 50px;
-} 
+}
 
 
 .gridcursos {
     display: grid;
-    justify-content: center;  
+    justify-content: center;
     grid-template-areas: "imagen titulo"
-                         "imagen descripcion";
-   grid-template-columns: 500px 500px;  
-   grid-column-gap: 50px;        
-  }
-  
-  .a { 
-      grid-area: titulo;
-      margin-top:50px;
-      margin-bottom: 10px;
+        "imagen descripcion";
+    grid-template-columns: 500px 500px;
+    grid-column-gap: 50px;
 }
-  .b { 
-      grid-area: imagen;
+
+.a {
+    grid-area: titulo;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.b {
+    grid-area: imagen;
     margin-left: 100px;
     margin-top: 100px;
 }
-  .c { 
-      grid-area: descripcion;
-      margin-top: 10px;
-      padding-left: 200px;
-    }
-  .d { 
-      grid-area: descripcion;
-      margin-top: -70px;
+
+.c {
+    grid-area: descripcion;
+    margin-top: 10px;
+    padding-left: 200px;
+}
+
+.d {
+    grid-area: descripcion;
+    margin-top: -70px;
     padding-top: 150px;
     padding-left: 250px;
-    
+
 }
-  .e { 
-      grid-area: descripcion; 
-    padding-top: 100px;}
+
+.e {
+    grid-area: descripcion;
+    padding-top: 100px;
+}
 
 
 /************************************************************************************************************/
@@ -384,11 +402,11 @@ footer p{
 /************************************************************************************************************/
 /************************************************************************************************************/
 
- 
 
 
-  @media (min-width: 100px) and (max-width: 767.98px) { 
-    .titulo{
+
+@media (min-width: 100px) and (max-width: 767.98px) {
+    .titulo {
         font-size: 35px;
     }
 
@@ -397,61 +415,63 @@ footer p{
         margin-left: 20px;
         margin-right: 20px;
     }
-             
-.header {
-    display: grid;
-    justify-content: center;  
-    grid-template-areas: "imagen opc";
-   grid-template-columns: 25% 75%;  
-   grid-template-rows: 190px ;
-   grid-column-gap: 2px;    
-   height: 190px;    
-  }
-  
-  .header img.logoimg { 
-      grid-area: imagen;
-      width: 100%;
-      height: 75%;
-      margin-top: auto;
-      margin-bottom: auto;
+/*
+    .header {
+        display: grid;
+        justify-content: center;
+        grid-template-areas: "imagen opc";
+        grid-template-columns: 25% 75%;
+        grid-template-rows: 190px;
+        grid-column-gap: 2px;
+        height: 190px;
+    }
 
-}
-  .header ul.menu { 
-    grid-area: opc;
-    display: inline-flex;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: auto;
-    padding-right: auto;
-    padding-top: auto;
-    padding-bottom: auto;
+    .header img.logoimg {
+        grid-area: imagen;
+        width: 100%;
+        height: 75%;
+        margin-top: auto;
+        margin-bottom: auto;
+
+    }
+
+    .header ul.menu {
+        grid-area: opc;
+        display: inline-flex;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: auto;
+        padding-right: auto;
+        padding-top: auto;
+        padding-bottom: auto;
+    }
+
+    .header ul.menu li a {
+        font-size: 10px;
+        margin-right: 1px;
+    }*/
+
+    div.imgfondoinicio {
+        min-height: 250px;
+    }
 }
 
-.header ul.menu li a{
-    font-size: 10px;
-    margin-right: 1px;
-}
 
-div.imgfondoinicio {
-    min-height: 250px;
-}
-  }
- 
-
- @media (min-width: 768px) and (max-width: 991.98px) { 
-    .titulo{
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .titulo {
         font-size: 50px;
     }
 
-  }
- 
- @media (min-width: 992px)  {      
-.header ul.menu li a{
-    font-size: 20px;
 }
-    .titulo{
-        color:#c88f93;
+
+@media (min-width: 992px) {/*
+    .header ul.menu li a {
+        font-size: 20px;
+    }*/
+
+    .titulo {
+        color: #c88f93;
         text-align: center;
         text-transform: uppercase;
         font-size: 75px;
@@ -464,18 +484,17 @@ div.imgfondoinicio {
         margin-left: 20px;
         margin-right: 20px;
     }
-    
+
     div p.parrafo2 {
         font-size: 25px;
     }
 
-    div.serviciosdiv div.imgtable{
+    div.serviciosdiv div.imgtable {
         height: 320px;
         width: 320px;
     }
 
-   form label {
-  font-size: 20px;
+    form label {
+        font-size: 20px;
+    }
 }
-  }
- 
