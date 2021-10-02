@@ -1,0 +1,87 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    .navbar-nav {
+        margin-left: auto;
+    }
+
+    .nav-link {
+        font-size: 20px;
+    }
+}
+
+
+main {
+    .gridcursos {
+        display: grid;
+        justify-content: center;
+        grid-template-areas: "imagen titulo"
+            "imagen descripcion";
+        grid-template-columns: 500px 500px;
+        grid-column-gap: 50px;
+
+        .gridcursos__a {
+            grid-area: titulo;
+            margin-top: 50px;
+            margin-bottom: 10px;
+
+            .titulocursos {
+                color: #c88f93;
+                text-align: center;
+                text-transform: uppercase;
+                font-size: 30px;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+
+        }
+
+        .gridcursos__b {
+            grid-area: imagen;
+            margin-left: 100px;
+            margin-top: 100px;
+
+        }
+
+        .gridcursos__c {
+
+            grid-area: descripcion;
+            margin-top: 10px;
+            padding-left: 200px;
+
+            .precio1 {
+                color: #c88f93;
+                text-align: left;
+                font-size: 30px;
+                text-decoration: line-through;
+                margin-top: -30px;
+                margin-bottom: 4px;
+            }
+
+            .precio2 {
+                color: green;
+                margin-top: 5px;
+                text-align: left;
+                font-size: 50px;
+            }
+        }
+
+        .gridcursos__d {
+
+            grid-area: descripcion;
+            margin-top: -70px;
+            padding-top: 150px;
+            padding-left: 250px;
+
+        }
+
+        .gridcursos__e {
+
+            grid-area: descripcion;
+            padding-top: 100px;
+
+        }
+    }
+}
