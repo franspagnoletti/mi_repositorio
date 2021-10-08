@@ -16,7 +16,7 @@ main .gridcursos {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-      grid-template-areas: "imagen titulo" "imagen descripcion";
+      grid-template-areas: "imagen titulo" "imagen descripcion";
   -ms-grid-columns: 500px 500px;
       grid-template-columns: 500px 500px;
   grid-column-gap: 50px;
@@ -77,8 +77,8 @@ main .gridcursos .gridcursos__d {
   -ms-grid-column: 2;
   grid-area: descripcion;
   margin-top: -70px;
-  padding-top: 150px;
   padding-left: 250px;
+  padding-top: 150px;
 }
 
 main .gridcursos .gridcursos__e {
