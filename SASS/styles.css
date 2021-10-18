@@ -39,6 +39,25 @@ main .gridcursos .gridcursos__a .titulocursos {
   margin-bottom: 30px;
 }
 
+main .gridcursos .gridcursos__a .precio1 {
+  color: #c88f93;
+  font-size: 30px;
+  text-decoration: line-through;
+  margin-top: -30px;
+  margin-bottom: 4px;
+}
+
+main .gridcursos .gridcursos__a .precio2 {
+  color: green;
+  margin-top: 5px;
+  font-size: 50px;
+}
+
+main .gridcursos .gridcursos__a button {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 main .gridcursos .gridcursos__b {
   -ms-grid-row: 1;
   -ms-grid-row-span: 2;
@@ -54,22 +73,21 @@ main .gridcursos .gridcursos__c {
   grid-area: descripcion;
   margin-top: 10px;
   padding-left: 200px;
-}
+  /* .precio1 {
+                color: #c88f93;
+                text-align: left;
+                font-size: 30px;
+                text-decoration: line-through;
+                margin-top: -30px;
+                margin-bottom: 4px;
+            }
 
-main .gridcursos .gridcursos__c .precio1 {
-  color: #c88f93;
-  text-align: left;
-  font-size: 30px;
-  text-decoration: line-through;
-  margin-top: -30px;
-  margin-bottom: 4px;
-}
-
-main .gridcursos .gridcursos__c .precio2 {
-  color: green;
-  margin-top: 5px;
-  text-align: left;
-  font-size: 50px;
+            .precio2 {
+                color: green;
+                margin-top: 5px;
+                text-align: left;
+                font-size: 50px;
+            } */
 }
 
 main .gridcursos .gridcursos__d {
@@ -85,6 +103,6 @@ main .gridcursos .gridcursos__e {
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: descripcion;
-  padding-top: 100px;
+  padding-top: 20px;
 }
 /*# sourceMappingURL=styles.css.map */

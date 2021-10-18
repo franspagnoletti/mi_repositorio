@@ -39,6 +39,27 @@ main {
                 margin-bottom: 30px;
             }
 
+            .precio1 {
+                color: #c88f93;
+              //  text-align: center;
+                font-size: 30px;
+                text-decoration: line-through;
+                margin-top: -30px;
+                margin-bottom: 4px;
+            }
+
+            .precio2 {
+                color: green;
+                margin-top: 5px;
+              //  text-align: center;
+                font-size: 50px;
+            }
+
+            button{
+                margin-left: auto;
+                margin-right: auto;
+            }
+
         }
 
         .gridcursos__b {
@@ -54,7 +75,7 @@ main {
             margin-top: 10px;
             padding-left: 200px;
 
-            .precio1 {
+            /* .precio1 {
                 color: #c88f93;
                 text-align: left;
                 font-size: 30px;
@@ -68,7 +89,7 @@ main {
                 margin-top: 5px;
                 text-align: left;
                 font-size: 50px;
-            }
+            } */
         }
 
         .gridcursos__d {
@@ -83,7 +104,7 @@ main {
         .gridcursos__e {
 
             grid-area: descripcion;
-            @include pading-top(100px);
+            @include pading-top(20px);
 
         }
     }
